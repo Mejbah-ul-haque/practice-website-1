@@ -1,0 +1,27 @@
+/* ------------
+  fonts 
+---------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:ital,wght@1,300&family=Russo+One&display=swap');
+/* -------------------
+common style 
+---------------------*/
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+/* -------------------------
+     top players style 
+---------------------------*/
+.players{
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: repeat(3, 1fr);
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
